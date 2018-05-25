@@ -16,7 +16,7 @@ def writesubs( str_out_file):
 	file_name = os.path.join(
 	    os.path.dirname(__file__),
 	    'resources',
-	    'audio.raw')
+	    'outaudio.wav')
 
 	# Loads the audio into memory
 	with io.open(file_name, 'rb') as audio_file:
