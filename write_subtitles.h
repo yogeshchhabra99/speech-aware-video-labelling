@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int writesubs(const char* video_file_name,const char* out_file_name)
+int writesubs(string video_file_name,string out_file_name)
 {
 	if(setenv("GOOGLE_APPLICATION_CREDENTIALS","/home/stylo/Downloads/key.json",1)) return 0; // set the environmentv variable GOOGLE_APPLICATION_CREDENTIALS change the path to the path of your key
 	string str="ffmpeg -i ";
