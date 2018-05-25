@@ -15,7 +15,7 @@ def writesubs( str_out_file):
 	# The name of the audio file to transcribe
 	file_name = os.path.join(
 	    os.path.dirname(__file__),
-	    'resources',
+	    'temp',
 	    'outaudio.wav')
 
 	# Loads the audio into memory
