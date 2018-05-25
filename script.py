@@ -51,7 +51,7 @@ def writesubs( str_out_file):
 	              #  start_time.seconds + start_time.nanos * 1e-9,
 	               # end_time.seconds + end_time.nanos * 1e-9))
 	            file.write("{}\n".format(i))
-	            file.write("{} --> {}\n".format(start_time.seconds + start_time.nanos * 1e-9,
+	            file.write("{}\n{}\n".format(start_time.seconds + start_time.nanos * 1e-9,
 	                end_time.seconds + end_time.nanos * 1e-9))
 	            file.write("{}\n\n".format(word))
 	            i=i+1
