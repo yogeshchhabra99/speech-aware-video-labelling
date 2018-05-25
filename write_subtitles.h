@@ -7,6 +7,7 @@ using namespace std;
 
 int writesubs(const char* video_file_name,const char* out_file_name)
 {
+	setenv("GOOGLE_APPLICATION_CREDENTIALS","/home/stylo/Downloads/key.json",1); // set the environmentv variable GOOGLE_APPLICATION_CREDENTIALS change the path to the path of your key
 	string str="ffmpeg -i ";
 	str=str + video_file_name +" -ar 40000 -ac 1 resources/outaudio.wav";  //output audio with 40000 sampling rate and single channel
 	int i=system(str.c_str());			//calling the ffmpeg command
