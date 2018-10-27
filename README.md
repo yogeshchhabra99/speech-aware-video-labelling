@@ -10,7 +10,7 @@ whch calls the script which uses google cloud api for speech to text, see below 
 ------
 api key
 -----
-contact chhabra99yogesh@gmail.com if u need a user key or setup your own, steps given on google cloud are quite easy to understand
+contact chhabra99yogesh@gmail.com or harshit.malik999@gmail.com if u need a user key or setup your own, steps given on google cloud are quite easy to understand
 > Link for setting up google cloud environment : https://cloud.google.com/sdk/docs/#deb
 
 
